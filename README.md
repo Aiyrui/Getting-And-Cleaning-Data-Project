@@ -4,6 +4,9 @@ This project is for the purpose of getting and cleaning data using the data prov
 
 * Site: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
+* Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
 Only Version 1.0 of the data will be used.
 
 The project uses, but not limited to, knowledge learned from the *Getting and Cleaning Data* course offered in Coursera. The goal is to write a R script that meets the criteria of the final course assignment.
