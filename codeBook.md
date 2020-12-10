@@ -16,14 +16,15 @@ Descriptive names for the activity ids are given by:
 
 * activity_labels.txt
 
-Descriptive variable names can be found in:
+Descriptive variable names and their information can be found in:
+
+* features_info.txt
 
 * features.txt
 
 All files used for this project in the text file format.
 
-### Transformations:
-
+### Transformations
 1. Files of interest are loaded from both the test and train group datasets.
 
 2. Variables are determined by the features.txt file and tidied by removing the numeric aspect of each variable name. 
