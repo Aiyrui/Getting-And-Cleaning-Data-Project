@@ -12,5 +12,5 @@ The project uses, but not limited to, knowledge learned from the *Getting and Cl
 * codeBook.md: describes the variables, the data, and any transformations or work performed to clean up the data.
 * resultOutput: Final dataset outputs from the script, in csv format.
 * README.md: Introduces and explains the project.
-* run_analysis.r: Contains the codes to perform analysis for the project.
+* run_analysis.R: Contains the codes to perform analysis for the project.
 * UCI HAR Dataset: Data used for project.
