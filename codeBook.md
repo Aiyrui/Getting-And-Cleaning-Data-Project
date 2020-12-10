@@ -4,11 +4,11 @@ Raw data being used for this project are the accelerometer and gyroscope data co
 * Data Information: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 * Data file used for project:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-For the purpose of this project, I will not look into the raw sampled data (UCI HAR Dataset/.../Inertial Signals). I will look into the data based on the feature measurements.
+For the purpose of this project, I will not look into the raw sampled data (UCI HAR Dataset/.../Inertial Signals). I will look into the data based on the feature measurements and focusing on the mean and standard devation variables.
 
 File Information:
 
-* X_: Observations of feature measurement
+* X_: Observations of feature measurements.
 * y_: Activity observed corresponding to each row in the X file. Labeled by numbers.
 * subject_: The subjects doing the corresponding activity in the y file and measured by the corresponding row in the X file. Labeled by numbers.
 
