@@ -33,4 +33,3 @@ All files used for this project in the text file format.
 7. Data is further reduced by transforming all variables, minus subject and activity, into one column called "measurement" and their corresponding values in the "values" column through pivot_longer().
 8.Data is then grouped in the order of: subject, activity, measurement. 9. Data is summarized by average of each variable for each activity and each subject.
 10. Final result is saved *sum_Average.txt*.
-
