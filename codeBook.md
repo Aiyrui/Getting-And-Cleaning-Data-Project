@@ -30,8 +30,7 @@ All files used for this project in the text file format.
 4. Descriptive activity names replaced the activity ids in labels (y_) data tables through the chain use of gsub() function.
 5. The corresponding test and train datasets are binded by columns in the order before both groups are merged by row bind.
 6. We are interested in the mean() and std() columns. Therefore, we subset by selecting only column variables that contain the pattern "mean()" or "std()".
-8. Result is output as *meanStd.csv* and saved to resultOutput folder.
-9. Data is further reduced by transforming all variables minus subject and activity into one column called "measurement" and their corresponding values in the "values" column through pivot_longer().
-10.Data is then grouped in the order of: subject, activity, measurement. 11. Data is summarized by average of each variable for each activity and each subject.
-12. Final result is output as *sum_Average.csv* and saved to resultOutput folder.
+7. Data is further reduced by transforming all variables, minus subject and activity, into one column called "measurement" and their corresponding values in the "values" column through pivot_longer().
+8.Data is then grouped in the order of: subject, activity, measurement. 9. Data is summarized by average of each variable for each activity and each subject.
+10. Final result is saved *sum_Average.txt*.
 

@@ -61,15 +61,7 @@ meanStd <- test_Train %>%
 
 ## Check for NA's
 sum(is.na(meanStd))
-
-## Write output to csv file in working directory.
-write_csv(meanStd, "resultOutput/meanStd.csv")
-
-## Gather feature measurement variables into one column with corresponding values
-## into a new column call "value", 
-## group by subject and activity, and summarize by mean. "subject" and "activity"
-## columns are left unchanged.
-sum_Average <- meanStd %>% 
+summary_Average <- meanStd %>% 
   pivot_longer(!subject:activity, 
                names_to = "measurement", 
                values_to = "value") %>% 
@@ -77,4 +69,8 @@ sum_Average <- meanStd %>%
   summarise(avg = mean(value))
 
 ## Write output to csv file in working directory.
-write_csv(sum_Average, "resultOutput/sum_Average.csv")
+write.table(summary_Average, "summary_Average.txt", row.name = FALSE)
+## Gather feature measurement variables into one column with corresponding values
+## into a new column call "value", 
+## group by subject and activity, and summarize by mean. "subject" and "activity"
+## columns are left unchanged.
