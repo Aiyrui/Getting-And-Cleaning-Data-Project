@@ -43,10 +43,10 @@ summary_Average: tibble [11,880 x 4] (S3: grouped_df/tbl_df/tbl/data.frame)
 
 Variables:
 
-* activity: Each row identifies the activity observed for each feature and variable. Their identifiers or labels were transformed into descriptive names. There are 6 activities being observed: Walking, Walking_Upstairs, Walking_Downstairs, Standing, Sitting, Laying. Class: character.
+* activity: Each row identifies the activity observed for each feature and variable. Their identifiers or labels were transformed into descriptive names. There are 6 activities being observed: Walking, Walking_Upstairs, Walking_Downstairs, Standing, Sitting, Laying. (Class: character)
 
-* avg: Summarized average of mean or standard deviation value across each feature vector for each subject and activity. They are grouped by *subject, activity, and measurement*. Class: numeric
+* avg: Summarized average of mean or standard deviation value across each feature vector for each subject and activity. They are grouped by *subject, activity, and measurement*. (Class: numeric)
 
-* measurement: List of feature vectors and their estimated mean or standard deviation after they were subset to contain only the mean or standard deviation variable. Each row identifies the mean or standard deviation of the corresponding feature vector. Class: character.
+* measurement: List of feature vectors and their estimated mean or standard deviation after they were subset to contain only the mean or standard deviation variable. Each row identifies the mean or standard deviation of the corresponding feature vector. (Class: character)
 
-* subject: Each row identifies the volunteer who performed the corresponding activity for each sampled data. There are 30 unique subjects, encoded in numbers. Class: integer
+* subject: Each row identifies the volunteer who performed the corresponding activity for each sampled data. There are 30 unique subjects, encoded in numbers. (Class: integer)

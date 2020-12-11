@@ -9,14 +9,26 @@ This project is for the purpose of getting and cleaning data using the data prov
 
 Only Version 1.0 of the data will be used.
 
-The project uses, but not limited to, knowledge learned from the *Getting and Cleaning Data* course offered in Coursera. The goal is to write a R script that meets the criteria of the final course assignment.
+The project uses, but not limited to, knowledge learned from the *Getting and Cleaning Data* course offered in Coursera. See project requirement below:
+
+Create an R script called run_analysis.R that does the following:
+
+1. Merges the training and the test sets to create one data set.
+
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
+3. Uses descriptive activity names to name the activities in the data set.
+
+4. Appropriately labels the data set with descriptive variable names.
+
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Contents of Repository:
 * codeBook.md: describes the variables, the data, and any transformations or work performed to clean up the data.
 * README.md: Introduces and explains the project.
 * run_analysis.R: Contains the codes to download and perform analysis for the project.
 
-### Script Overview:
+### Methodology:
 
 The script for this project can be founded in run_analysis.R (which was mentioned in the above content). It is created for the purpose of downloading the raw data file :https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and turn it into processed data through tidying. 
 The script saves the url in an object named urlZip due to the fact that the file is in .zip format. The zipPath object creates the path to the directory, which will be the designated path that urlZip will be downloaded to before it is unzipped to gain access to the raw data.
