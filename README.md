@@ -9,7 +9,7 @@ This project is for the purpose of getting and cleaning data using the data prov
 
 Only Version 1.0 of the data will be used.
 
-The project uses, but not limited to, knowledge learned from the *Getting and Cleaning Data* course offered in Coursera. See project requirement below:
+The project uses, but not limited to, knowledge learned from the *Getting and Cleaning Data* course offered in Coursera. See project analysis requirement below:
 
 Create an R script called run_analysis.R that does the following:
 
